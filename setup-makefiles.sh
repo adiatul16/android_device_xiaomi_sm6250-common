@@ -7,6 +7,9 @@
 
 set -e
 
+DEVICE_COMMON=sm6250-common
+VENDOR=xiaomi
+
 INITIAL_COPYRIGHT_YEAR=2020
 
 # Load extract_utils and do some sanity checks
