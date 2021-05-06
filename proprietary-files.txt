@@ -1115,7 +1115,6 @@ system_ext/etc/permissions/qti_permissions.xml
 vendor/bin/irsc_util
 vendor/bin/pd-mapper
 vendor/bin/qrtr-ns
-vendor/etc/sec_config
 vendor/bin/ssr_setup
 vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
