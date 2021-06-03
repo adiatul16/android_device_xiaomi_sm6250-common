@@ -309,7 +309,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.3-service.xiaomi_sm6250
+    android.hardware.power-service.xiaomi-libperfmgr
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 # RCS
 PRODUCT_PACKAGES += \
@@ -354,7 +357,10 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    kernel/xiaomi/sm6250
+    kernel/xiaomi/sm6250 \
+    hardware/google/interfaces \
+    hardware/google/pixel \
+    hardware/xiaomi
 
 # Telephony
 PRODUCT_PACKAGES += \
