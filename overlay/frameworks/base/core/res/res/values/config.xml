@@ -751,4 +751,7 @@
     <!-- Flag indicating whether we should enable the adaptive sleep.-->
     <bool name="config_adaptive_sleep_available">true</bool>
 
+    <!-- Set the default dialer package name. -->
+    <string name="config_defaultDialer" translatable="false">com.android.dialer</string>
+
 </resources>
