@@ -190,6 +190,15 @@
         <fqname>@1.0::IOffloadControl/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>com.dsi.ant</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IAnt</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
         <name>com.fingerprints.extension</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -354,6 +363,16 @@
         <fqname>@2.0::IBTConfigStore/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>vendor.qti.hardware.cacert</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IService</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IService/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.qti.hardware.capabilityconfigstore</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -437,17 +456,16 @@
         </interface>
         <fqname>@1.0::IFmHci/default</fqname>
     </hal>
-    <!-- QCC HAL Service -->
     <hal format="hidl">
-        <name>vendor.qti.hardware.qccvndhal</name>
+        <name>vendor.qti.hardware.fstman</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
-            <name>IQccvndhal</name>
-            <instance>qccvndhal</instance>
+            <name>IFstManager</name>
+            <instance>default</instance>
         </interface>
-        <fqname>@1.0::IQccvndhal/qccvndhal</fqname>
-    </hal> <!-- QCC HAL Service -->
+        <fqname>@1.0::IFstManager/default</fqname>
+    </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.iop</name>
         <transport>hwbinder</transport>
@@ -469,14 +487,14 @@
         <fqname>@2.2::IPerf/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.qti.hardware.qdutils_disp</name>
+        <name>vendor.qti.hardware.qccvndhal</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
-            <name>IQdutilsDisp</name>
-            <instance>default</instance>
+            <name>IQccvndhal</name>
+            <instance>qccvndhal</instance>
         </interface>
-        <fqname>@1.0::IQdutilsDisp/default</fqname>
+        <fqname>@1.0::IQccvndhal/qccvndhal</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.qseecom</name>
