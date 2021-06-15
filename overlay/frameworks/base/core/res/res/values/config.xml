@@ -754,4 +754,8 @@
     <!-- Set the default dialer package name. -->
     <string name="config_defaultDialer" translatable="false">com.android.dialer</string>
 
+    <!-- Enable overlays for location components. -->
+    <string name="config_comboNetworkLocationProvider">com.qualcomm.location</string>
+    <string name="config_networkLocationProviderPackageName">com.qualcomm.location</string>
+
 </resources>
