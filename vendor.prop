@@ -97,6 +97,13 @@ vendor.audio_hal.in_period_size=144
 vendor.audio_hal.period_multiplier=3
 vendor.audio_hal.period_size=192
 vendor.voice.path.for.pcm.voip=true
+ro.vendor.audio.spk.clean=true
+ro.vendor.audio.vocal.support=false
+ro.vendor.audio.surround.support=false
+ro.vendor.audio.spk.stereo=false
+ro.vendor.audio.scenario.support=false
+ro.vendor.audio.sfx.scenario=false
+ro.vendor.audio.sfx.earadj=false
 
 # Bluetooth
 persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac
