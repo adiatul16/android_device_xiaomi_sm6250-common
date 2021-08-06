@@ -771,4 +771,8 @@
          Used to decide if the user can change the colors -->
     <bool name="config_multiColorBatteryLed">false</bool>
 
+    <!-- Enable overlays for location components. -->
+    <string name="config_comboNetworkLocationProvider">com.qualcomm.location</string>
+    <string name="config_networkLocationProviderPackageName">com.qualcomm.location</string>
+
 </resources>
