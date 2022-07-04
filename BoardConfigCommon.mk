@@ -65,6 +65,7 @@ USE_DEX2OAT_DEBUG := false
 # Display
 TARGET_SCREEN_DENSITY := 411
 TARGET_USES_HWC2 := true
+TARGET_USES_VULKAN := true
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/configs/config.fs
